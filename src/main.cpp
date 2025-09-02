@@ -22,8 +22,12 @@ void loop() {
   //} else if (maLectureAnalogique < 2047) {
    // FastLED.clear(true);
    
-  }
+  //}
   
+
+  int result ((maLectureAnalogique *255) / 4095); 
+  monPixel = CRGB(result, 0, 0);
+  FastLED.show();
 }
 
 
