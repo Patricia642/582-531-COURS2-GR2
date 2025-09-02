@@ -15,12 +15,13 @@ void loop() {
   Serial.println(maLectureAnalogique);
   delay(100);
 
-  if (maLectureAnalogique >= 2047)
-  {
-    monPixel = CRGB(253, 75, 122);
-  FastLED.show();
-  } else if (maLectureAnalogique < 2047) {
-    FastLED.clear(true);
+  //if (maLectureAnalogique >= 2047)
+  //{
+  //  monPixel = CRGB(253, 75, 122);
+  //FastLED.show();
+  //} else if (maLectureAnalogique < 2047) {
+   // FastLED.clear(true);
+   
   }
   
 }
